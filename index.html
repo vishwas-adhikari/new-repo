@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Creative & Colorful Page</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(45deg, #ff7eb9, #ff65a3, #7afcff, #feff9c);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      animation: colorChange 5s infinite alternate;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    .button {
+      display: inline-block;
+      background: #00c9b7;
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      margin-top: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .button:hover {
+      transform: scale(1.1);
+    }
+
+    @keyframes colorChange {
+      0% { color: #ff65a3; }
+      25% { color: #ff7eb9; }
+      50% { color: #7afcff; }
+      75% { color: #feff9c; }
+      100% { color: #ff65a3; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to My Colorful World!</h1>
+    <p>This is a vibrant and playful static page made to show off creative web design.</p>
+    <a href="https://github.com" class="button" target="_blank">Visit My GitHub</a>
+  </div>
+</body>
+</html>
